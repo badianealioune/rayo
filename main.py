@@ -111,7 +111,7 @@ class Bot(BaseBot):
            await self.highrise.chat(frase)
           
         if message.startswith("/fly"):
-          if user.username == "ALIOUNE_":
+          if user.username == "alii.G":
             await self.teleporter(message)
 
         if        message.startswith("/") or message.startswith("!"):
@@ -1217,19 +1217,19 @@ class Bot(BaseBot):
           await self.highrise.teleport(user.id,Position(16.5,14.75,17.5))
 
         if message.startswith("!vip"):
-          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "Just_xx" or user.username == "mielX_baby" or user.username == "Ria__Jeyn" or user.username == "0x0xD" or user.username == "Pr_junior45_":
+          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "Ria__Jeyn" or user.username == "0x0xD" or user.username == "Pr_junior45_":
             await self.highrise.teleport(user.id,Position(4.0,15.75,4.5))
 
         if message.startswith("!down"):
           await self.highrise.teleport(user.id,Position(15.5,0.0,11.5))
 
         if                            message.startswith("Summon") or          message.startswith("/summon") or  message.startswith("!summon"):
-          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "Just_xx" or user.username == "mielX_baby" or user.username == "0x0xD" or user.username == "Ria__Jeyn" or user.username == "Pr_junior45_":
+          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "0x0xD" or user.username == "Ria__Jeyn" or user.username == "Pr_junior45_":
            target_username = message.split("@")[-1].strip()
            await self.teleport_user_next_to(target_username, user)
     
         if message.startswith("kick"):
-          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "Just_xx" or user.username == "mielX_baby" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "Ria__Jeyn":
+          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "Ria__Jeyn":
               pass
           else:
               await self.highrise.chat("Pas la permission.")
