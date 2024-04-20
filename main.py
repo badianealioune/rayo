@@ -1207,8 +1207,7 @@ class Bot(BaseBot):
             await self.highrise.react("thumbs", user.id)
               
         if        message.startswith("/tp") or      message.startswith("!tp") or      message.startswith("/tele") or          message.startswith("Tp") or          message.startswith("Tele") or  message.startswith("!tele"):
-          target_username =         message.split("@")[-1].strip()
-          await                     self.teleport_to_user(user, target_username)
+          print(f"{user.username} casse pas les couilles pour aller au vip")
 
         if message.startswith("!up1"):
           await self.highrise.teleport(user.id,Position(13.5,10.25,17.0))
