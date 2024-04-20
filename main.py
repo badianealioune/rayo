@@ -1211,10 +1211,11 @@ class Bot(BaseBot):
           await                     self.teleport_to_user(user, target_username)
 
         if message.startswith("!up1"):
-          await self.highrise.teleport(user.id,Position(13.5,8.0,10.5))
+          await self.highrise.teleport(user.id,Position(13.5,10.25,17.0))
 
         if message.startswith("!up2"):
-          await self.highrise.teleport(user.id,Position(16.5,14.75,17.5))
+          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "Ria__Jeyn" or user.username == "N9ll" or user.username == "Milisa.P" or user.username == "Radhi_top1_":
+            await self.highrise.teleport(user.id,Position(16.0,16.5,18.5))
 
         if message.startswith("!vip"):
           if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "Ria__Jeyn" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "N9ll" or user.username == "Milisa.P" or user.username == "Radhi_top1_":
