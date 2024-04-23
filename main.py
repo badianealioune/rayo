@@ -1217,7 +1217,7 @@ class Bot(BaseBot):
             await self.highrise.teleport(user.id,Position(16.0,16.5,18.5))
 
         if message.startswith("!vip"):
-          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "Ria__Jeyn" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "N9ll" or user.username == "Milisa.P" or user.username == "Radhi_top1_":
+          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "Ria__Jeyn" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "N9ll" or user.username == "Milisa.P" or user.username == "Radhi_top1_" or user.username == "xKxlya" or user.username == "The_DarkNight":
             await self.highrise.teleport(user.id,Position(4.0,15.75,4.5))
 
         if message.startswith("!down"):
@@ -1229,7 +1229,7 @@ class Bot(BaseBot):
            await self.teleport_user_next_to(target_username, user)
     
         if message.startswith("kick"):
-          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "Ria__Jeyn" or user.username == "N9ll" or user.username == "Milisa.P" or user.username == "Radhi_top1_":
+          if user.username == "R0__YA" or user.username == "didyousaydonut" or user.username == "Demic._" or user.username == "Mini_sad" or user.username == "f__7oo" or user.username == "H.kakashi" or user.username == "ALIOUNE_" or user.username == "mielX_baby" or user.username == "0x0xD" or user.username == "Pr_junior45_" or user.username == "Ria__Jeyn" or user.username == "N9ll" or user.username == "Milisa.P" or user.username == "Radhi_top1_"or user.username == "xKxlya" or user.username == "The_DarkNight":
               pass
           else:
               await self.highrise.chat("Pas la permission.")
